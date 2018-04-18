@@ -12,6 +12,8 @@
 		3B8AC2842087627F00EAE6F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8AC2822087627F00EAE6F0 /* Main.storyboard */; };
 		3B8AC2862087628000EAE6F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8AC2852087628000EAE6F0 /* Assets.xcassets */; };
 		3B8AC2892087628000EAE6F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8AC2872087628000EAE6F0 /* LaunchScreen.storyboard */; };
+		E149CEA8208792A500E78821 /* Concetration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149CEA7208792A500E78821 /* Concetration.swift */; };
+		E149CEAA2087935D00E78821 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149CEA92087935D00E78821 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3B8AC2852087628000EAE6F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B8AC2882087628000EAE6F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B8AC28A2087628000EAE6F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E149CEA7208792A500E78821 /* Concetration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concetration.swift; sourceTree = "<group>"; };
+		E149CEA92087935D00E78821 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				E13695BF20876A0900845A87 /* Supporting Files */,
 				3B8AC2802087627F00EAE6F0 /* ViewController.swift */,
 				3B8AC2822087627F00EAE6F0 /* Main.storyboard */,
+				E149CEA7208792A500E78821 /* Concetration.swift */,
+				E149CEA92087935D00E78821 /* Card.swift */,
 				3B8AC28A2087628000EAE6F0 /* Info.plist */,
 			);
 			path = ConcGame2;
@@ -144,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B8AC2812087627F00EAE6F0 /* ViewController.swift in Sources */,
+				E149CEA8208792A500E78821 /* Concetration.swift in Sources */,
 				3B8AC27F2087627F00EAE6F0 /* AppDelegate.swift in Sources */,
+				E149CEAA2087935D00E78821 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
