@@ -14,6 +14,7 @@ class Concentration
     
     var flipCount = 0
     var matchedCount = 0
+    var bestTry = 0
     var finished = false
     
     var indexOfFirstFacedUp: Int?
@@ -43,6 +44,13 @@ class Concentration
         
         if ((cards.count / 2) - matchedCount) == 0 {
             finished = true
+            if bestTry == 0 {
+                bestTry = flipCount
+            } else {
+                if bestTry > flipCount {
+                    bestTry = flipCount
+                }
+            }
         }
     }
     

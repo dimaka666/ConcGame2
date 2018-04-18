@@ -15,11 +15,13 @@ class ViewController: UIViewController {
     @IBOutlet var cardButtons: [UIButton]!
     
     @IBOutlet weak var flipCountLabel: UILabel!
+    @IBOutlet weak var bestScore: UILabel!
     
     @IBAction func touchCard(_ sender: UIButton) {
         if let cardNumber = cardButtons.index(of: sender) {
             game.chooseCard(at: cardNumber)
             if game.finished {
+                bestScore.text = "Best score: \(game.bestTry)"
                 game = Concentration(numberOfPairsOfCards: (cardButtons.count + 1) / 2)
                 emojiChoices = emojiSource
             }
@@ -54,7 +56,7 @@ class ViewController: UIViewController {
         }
     }
     
-    let emojiSource = ["😈","👹","💩","🤖","🤢","☠️","👻","😍"]
+    let emojiSource = ["😈","👹","💩","🤖","🤢","☠️","👻","😍","🤪","🧠","🧟‍♂️","🙈","🙉","🐣","🦄","🦋","🐙"]
     lazy var emojiChoices = emojiSource
     
     
